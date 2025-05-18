@@ -1,17 +1,21 @@
-.container{
-    background: linear-gradient(purple,blue, white);
-    max-width: 100%;
-    padding: auto;
-    display: 1;
-
+.container {
+    margin: 0;
+    background-color: #99a3ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 h1{
-    color: aqua;
+    color: rgb(17, 0, 255);
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 p{
-   color: aquamarine; 
+   color: rgb(21, 43, 35); 
    font-size: 60px;
 }
